@@ -24,7 +24,6 @@ class LRU:
             self.cache[key] = value
             self.cache.move_to_end(key)
                 
-    
     def display_cache(self):
         return self.cache
         
